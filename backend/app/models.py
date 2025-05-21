@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, LargeBinary
-from database import Base
+from app.database import Base
 
 class MP3File(Base):
     __tablename__ = "mp3files"
